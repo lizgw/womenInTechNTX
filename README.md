@@ -2,6 +2,8 @@
 
 This repository is a website/information hub for young women in North Texas who are interested in the technology industry.
 
+**At the moment, this website is a work in progress! Content will be coming soon.**
+
 ## Goals of this Project
 - **To act as a central resource** for young women who are seeking out opportunities in technology
 - **To foster collaboration and community** - it's easier to find opportunities when everyone is looking for them together

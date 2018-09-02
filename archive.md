@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Archive
+title: Opportunity Archive
 permalink: /archive/
 weight: 5
 sitemap:

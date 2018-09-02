@@ -6,8 +6,7 @@ url                          : "http://lizgw.github.io" # the base hostname & pr
 
 blog:
   title                      : womenInTech | NTX
-  description                  : >
-                               A database of opportunities for young women in North Texas who are interested in the technology industry.
+  description                : womenInTechNTX is a collection of opportunities for young women in North Texas who are interested in the technology industry.
 
 # Layout configuration
   logo_path                  : "assets/img/dactl.svg" # path to logo file
@@ -28,13 +27,13 @@ blog:
 author:
   fullname                  : Liz Wigglesworth
   rss                       : true # generate RSS feed and show it's icon in header
-  mail                      : liz.wigglesworth@gmail.com # change to your e-mail address
-  twitter                   : lizgwigg
-  github                    : lizgwme
-  disqus                    : dactl # your disqus site name
+  mail                      : 
+  twitter                   : 
+  github                    : 
+  disqus                    : # your disqus site name
   google_analytics          : # 'UA-XXXXXXXX-X'
-  photo                     : "uploads/me2.png"
-  photo2x                   : "uploads/me.png"
+  photo                     : 
+  photo2x                   : 
 
 
 
