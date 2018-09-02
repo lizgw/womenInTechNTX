@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% assign post = page %}
+
+<article class="post">
+
+    {% if site.blog.hero_layout == true %}
+    {% include utils/hero.html %}
+    {% endif %}
+
+    {% include post/title-container.html post=page %}
+
+    <!-- opportunity data -->
+    <h2>Opportunity Overview</h2>
+    <br>
+    <table>
+        <tr>
+            <td>Opportunity Type</td>
+            <td>{{ page.type }}</td>
+        </tr>
+        <tr>
+           <td>Age Level</td>
+           <td>{{ page.age-level }}</td>
+        </tr>
+        <tr>
+            <td>Experience Level</td>
+            <td>{{ page.experience-level }}</td>
+        </tr>
+        <tr>
+            <td>Cost</td>
+            <td>{{ page.cost }}</td>
+        </tr>
+    </table>
+
+    <!-- Post content -->
+    {{ post.content | remove: '&lt;!–-break-–&gt;' }}
+</article>
+
+{% if site.author.disqus %}
+    {% include externals/disqus.html %}
+{% endif %}
+
+{% include post/related.html %}

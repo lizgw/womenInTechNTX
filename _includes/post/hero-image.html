@@ -1,0 +1,9 @@
+ <!--Post hero image source-->
+ {% if site.blog.hero_layout == true %}
+ {% if post.source-img %}
+ <div class="post-source-img">
+ <span class="source-text">source: </span>
+ <span class="source"><a href="{{ post.source-img }}">{{ post.source-img }}</a></span>
+ </div>
+ {% endif %}
+{% endif %}
