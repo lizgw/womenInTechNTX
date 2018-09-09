@@ -35,6 +35,8 @@ layout: default
 
     <!-- Post content -->
     {{ post.content | remove: '&lt;!–-break-–&gt;' }}
+
+    <p>For more information, visit this opportunity's website: <a href="{{ page.external-page }}">{{ page.external-page }}</a></p>
 </article>
 
 {% if site.author.disqus %}
